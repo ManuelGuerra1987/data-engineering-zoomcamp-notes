@@ -17,6 +17,12 @@ models:
         tests:
             - not_null:
                 severity: error
+
+  - name: fct_taxi_trips_quarterly_revenue
+    description: >
+      Quarterly YoY (Year-over-Year) revenue growth
+
+              
       
   - name: fact_trips
     description: >
