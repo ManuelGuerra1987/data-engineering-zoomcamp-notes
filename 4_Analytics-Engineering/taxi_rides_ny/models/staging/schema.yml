@@ -6,8 +6,8 @@ sources:
     schema: zoomcamp
       # loaded_at_field: record_loaded_at
     tables:
-      - name: green_tripdata
-      - name: yellow_tripdata
+      - name: green_2019_2020
+      - name: yellow_2019_2020
          # freshness:
            # error_after: {count: 6, period: hour}
 
