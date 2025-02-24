@@ -26,6 +26,5 @@ percentiles AS (
     
 )
 
-SELECT DISTINCT service_type, year, month, p97, p95, p90 
-FROM percentiles
-WHERE month = 4 AND year = 2020
+SELECT * FROM percentiles
+
